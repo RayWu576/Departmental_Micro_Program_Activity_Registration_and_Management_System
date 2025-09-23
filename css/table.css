@@ -1,0 +1,19 @@
+.own-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.own-table th,
+.own-table td {
+    border: 2px solid #000;
+    padding: 8px;
+}
+
+.own-table th {
+    background-color: #3F3F3F;
+    color: #fff;
+}
+
+.own-table td {
+    background-color: gray;
+}

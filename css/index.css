@@ -1,0 +1,35 @@
+#light {
+    width: 150px;
+    height: 150px;
+    /* background: linear-gradient(45deg, rgb(109, 120, 178), rgb(177, 191, 228)); */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    border: 5px solid #e46d6d;
+    box-shadow: 0 0 40px 10px rgb(101, 92, 169);
+    border-radius: 20%;
+    /* 圓角半徑 */
+    z-index: -1;
+}
+
+.navbar {
+    background: transparent !important;
+    transition: background 1.0s ease-out;
+}
+
+.navbar.navbar-expand-lg.fixed-top.scrolled {
+    background-color: rgb(28, 28, 40, 0.7) !important;
+}
+
+.navbar-nav.me-auto.mb-2.mb-lg-0 li a {
+    color: rgb(194, 193, 193);
+}
+
+.navbar-nav.me-auto.mb-2.mb-lg-0 li a:hover {
+    color: rgb(194, 193, 193, 0.5);
+}
+
+.navbar-brand {
+    color: rgb(194, 193, 193);
+}
