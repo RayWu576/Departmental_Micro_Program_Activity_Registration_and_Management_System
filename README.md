@@ -1,4 +1,4 @@
-# Departmental_Micro_Program_Activity_Registration_and_Management_System
-
+# 系上微學程/活動註冊報名管理系統
+## 組員:吳祁叡 龐宸業 洪軍皓
 
 
